@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Quit.cs" />
     <Compile Include="Assets\Scripts\SceneSwitch\MenuScene.cs" />
     <Compile Include="Assets\Scripts\SceneSwitch\PlayScene.cs" />
     <Compile Include="Assets\Scripts\SceneSwitch\SettingsScene.cs" />
