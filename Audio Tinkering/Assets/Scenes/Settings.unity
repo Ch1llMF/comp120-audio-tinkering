@@ -747,6 +747,7 @@ GameObject:
   - component: {fileID: 1703160964}
   - component: {fileID: 1703160963}
   - component: {fileID: 1703160962}
+  - component: {fileID: 1703160965}
   m_Layer: 5
   m_Name: Back
   m_TagString: Untagged
@@ -814,8 +815,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1908831502}
-        m_MethodName: GoToMenuScene
+      - m_Target: {fileID: 1908831501}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -864,6 +865,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1703160960}
   m_CullTransparentMesh: 0
+--- !u!114 &1703160965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703160960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00c18d95ed761a24faf8064436030066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: d716be6471738d0408268e490298d2b0, type: 3}
 --- !u!1 &1838946709
 GameObject:
   m_ObjectHideFlags: 0
@@ -1045,7 +1059,7 @@ GameObject:
   - component: {fileID: 1908831503}
   - component: {fileID: 1908831502}
   m_Layer: 0
-  m_Name: SceneSwitch
+  m_Name: MenuSwitch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1060,7 +1074,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1908831501}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ab2a4f1f3d608f4bb684f002508fe30, type: 3}
+  m_Script: {fileID: 11500000, guid: 4a3b44f84dca1b14daf787fc8f723fac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1908831503

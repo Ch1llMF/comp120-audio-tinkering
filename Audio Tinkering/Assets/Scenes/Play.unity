@@ -270,7 +270,7 @@ GameObject:
   - component: {fileID: 383909934}
   - component: {fileID: 383909933}
   m_Layer: 0
-  m_Name: SceneSwitch
+  m_Name: MenuSwitch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -285,7 +285,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 383909932}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ab2a4f1f3d608f4bb684f002508fe30, type: 3}
+  m_Script: {fileID: 11500000, guid: 4a3b44f84dca1b14daf787fc8f723fac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &383909934
@@ -564,6 +564,7 @@ GameObject:
   - component: {fileID: 2043522030}
   - component: {fileID: 2043522029}
   - component: {fileID: 2043522028}
+  - component: {fileID: 2043522031}
   m_Layer: 5
   m_Name: Back
   m_TagString: Untagged
@@ -631,12 +632,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 383909933}
-        m_MethodName: GoToMenuScene
+      - m_Target: {fileID: 383909932}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -681,3 +682,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2043522026}
   m_CullTransparentMesh: 0
+--- !u!114 &2043522031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043522026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00c18d95ed761a24faf8064436030066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: d716be6471738d0408268e490298d2b0, type: 3}
