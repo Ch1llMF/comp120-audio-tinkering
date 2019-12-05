@@ -12,12 +12,12 @@ public class MenuScene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(GoToMenu());
+        StartCoroutine(GoToMenu()); // this calls the coroutine in the module named "GoToMenu()"
     }
 
     IEnumerator GoToMenu()
     {
-        yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("Menu");
+        yield return new WaitForSeconds(1); // delays the code by 1 second
+        SceneManager.LoadScene("Menu"); // changes the scene to the "Menu" scene
     }
 }

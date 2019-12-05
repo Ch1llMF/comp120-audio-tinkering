@@ -6,7 +6,7 @@ public class Quit : MonoBehaviour
 {
     public void QuitGame()
     {
-        Debug.Log("Quit");
-        Application.Quit();
+        Debug.Log("Quit"); // this prints a message in the console that says "Quit"
+        Application.Quit(); // This will quit the application but will only work if it was built. 
     }
 }
